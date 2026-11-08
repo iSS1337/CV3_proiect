@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_tmp/
+.pytest_cache/
+data/kitti/
+vids/
+outputs/
+*.mp4
+*.pt

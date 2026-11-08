@@ -1,0 +1,80 @@
+event_id,label,start_frame,end_frame,start_s,end_s,note
+2,EMERGENCY,412,462,6.874,7.708,"Aici este caz de sudden, apare de-odata in fata motocicletei, dar time-frame-urile sunt relevante."
+3,WARNING,1079,1150,18.001,19.186,
+4,EMERGENCY,1157,1235,19.303,20.604,
+5,WARNING,1859,2014,31.014,33.600,
+6,EMERGENCY,2014,2193,33.600,36.587,
+7,EMERGENCY,3076,3125,51.318,52.135,"Aici la fel, este caz de sudden stop, vezi, apare din afara camerei si ar trebui sa apara instant emergency, fara warning. Problema e ca e noapte si exista un risc sa nu il clasifice."
+8,WARNING,4609,4655,76.893,77.661,
+9,WARNING,5132,5296,85.619,88.355,
+10,WARNING,6119,6172,102.085,102.970,
+11,EMERGENCY,6172,6298,102.970,105.072,"Aici, cand era distanta mai mare am dat warning, dupa cand s-a apropiat si masina mergea emergency, deci cumva foarte aproape una de cealalta."
+12,WARNING,7031,7077,117.301,118.068,
+13,EMERGENCY,7077,7192,118.068,119.987,"La fel si aici, warning si la scurt timp emergency pt. ca masina nu oprea si viteza era inca >0."
+14,WARNING,7645,7761,127.544,129.479,
+15,WARNING,8468,8567,141.274,142.926,
+16,EMERGENCY,8580,8858,143.143,147.781,"Aici masina se vede ca incetineste si se reduce viteza, dar avand in vedere ca inca se deplaseaza, am pus emergency."
+17,WARNING,9942,9979,165.866,166.483,
+18,WARNING,11265,11287,187.938,188.305,
+19,EMERGENCY,11298,11369,188.488,189.673,"Aici vehiculul are ~90km/h, deci emergency trebuie sa se ridice inainte ca sa aiba timp masina sa se opreasca."
+20,WARNING,11727,11784,195.645,196.596,
+21,EMERGENCY,11795,11904,196.780,198.598,
+22,EMERGENCY,11925,12039,198.949,200.851,
+23,WARNING,13470,13572,224.725,226.426,
+24,EMERGENCY,13572,13608,226.426,227.027,
+25,WARNING,13973,14770,233.116,246.413,
+26,WARNING,15607,15809,260.377,263.747,
+27,WARNING,17023,17071,284.000,284.801,
+28,EMERGENCY,17071,17224,284.801,287.354,"Aici la fel, este noapte, deci posibil ca modelul sa nu vada pietonul."
+29,WARNING,17670,17738,294.795,295.929,
+30,EMERGENCY,17738,17838,295.929,297.597,
+31,EMERGENCY,18424,18529,307.374,309.125,Alt caz de sudden hazard.
+32,WARNING,19937,20137,332.616,335.952,
+33,WARNING,20520,20557,342.342,342.959,
+34,EMERGENCY,20557,20696,342.959,345.278,
+35,WARNING,20692,20744,345.212,346.079,
+36,EMERGENCY,20757,21120,346.296,352.352,"Secventele astea sunt dublate, primu frame, 20557 este in redare normala si al doilea set, 20757 este in slow-mo."
+37,WARNING,21517,21604,358.975,360.427,
+38,EMERGENCY,21604,21680,360.427,361.695,
+39,WARNING,22141,22271,369.386,371.555,
+40,EMERGENCY,22261,22314,371.388,372.272,
+41,WARNING,22405,22493,373.790,375.258,
+42,EMERGENCY,22498,22717,375.342,378.995,
+43,EMERGENCY,22777,22806,379.996,380.480,Aici este dublat emergency pentru ca masina pleaca dar pietonul este inca foarte aproape si se deplaseaza spre masina
+44,WARNING,24195,24263,403.653,404.788,
+45,EMERGENCY,24263,24325,404.788,405.822,
+46,WARNING,25002,25054,417.117,417.984,
+47,EMERGENCY,25054,25080,417.984,418.418,Noapte - conditii slabe de vedere.
+48,WARNING,25561,25572,426.443,426.626,
+49,EMERGENCY,25572,25678,426.626,428.395,"Aici e o problema si de camera - isi schimba pozitionarea, de jos in sus si ia din cadre creand probleme de clasificare."
+50,WARNING,25736,26326,429.362,439.205,Aici e warning pentru ca soferul ocoleste pietonul.
+51,WARNING,26447,26557,441.224,443.059,
+52,EMERGENCY,26557,26642,443.059,444.477,
+53,WARNING,26735,26765,446.029,446.529,
+54,WARNING,28193,28249,470.353,471.287,
+55,EMERGENCY,28249,28472,471.287,475.008,
+56,WARNING,28934,29203,482.716,487.203,"Aici pietonul trece de sensul deplasarii masinii, deci ramane warning dar nu opreste de urgenta."
+57,WARNING,29552,29565,493.026,493.243,
+58,EMERGENCY,29565,29627,493.243,494.277,
+59,WARNING,30361,30513,506.523,509.059,
+60,EMERGENCY,30513,30773,509.059,513.396,
+61,WARNING,30773,30861,513.396,514.864,
+62,EMERGENCY,31302,31369,522.222,523.339,"Aici e sudden hazard. Conditii slabe de vizibilitate, viteza mare.."
+63,WARNING,31743,32075,529.579,535.118,
+64,WARNING,32250,32301,538.038,538.888,
+65,EMERGENCY,32301,32488,538.888,542.008,
+66,WARNING,32526,32757,542.642,546.496,
+67,WARNING,33009,33313,550.700,555.772,
+68,EMERGENCY,33697,33842,562.178,564.597,
+69,WARNING,33842,34880,564.597,581.915,Conditii slabe de vizibilitate.
+70,WARNING,35921,36686,599.282,612.045,
+71,WARNING,36799,37379,613.930,623.606,
+72,EMERGENCY,37935,38082,632.882,635.335,Sudden hazard -> pietonii sar in fata masinii fara vreun indiciu anterior
+73,WARNING,39170,39376,653.486,656.923,
+74,WARNING,39884,40023,665.398,667.717,
+75,EMERGENCY,40023,40128,667.717,669.469,Aici soferul schimba banda sa ocoleasca pietonul..
+76,WARNING,40440,41065,674.674,685.101,
+77,WARNING,41166,41659,686.786,695.011,
+78,WARNING,41873,42306,698.581,705.805,
+79,EMERGENCY,42398,42484,707.340,708.775,"Conditii de vizibilitate slaba si aici, apa pe parbriz.."
+80,IGNORE,20672,21253,344.878,354.571,
