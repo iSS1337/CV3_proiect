@@ -37,6 +37,11 @@ Video propriu: 30069 cadre NORMAL, 9275 WARNING, 3647 EMERGENCY, 582 IGNORE.
 `docs/verify/` contine cadre cu cutiile incarcate de DataLoader (cu distanta KITTI in metri) pentru train/val/test si cadre
 din video-ul propriu pentru WARNING si EMERGENCY.
 
+### Clipuri demo
+`docs/demo/dashcam_demo.mp4`: eveniment EMERGENCY din video-ul propriu, cu eticheta data de DashcamEventDataset pe fiecare cadru.
+`docs/demo/kitti_demo.mp4`: secventa din split-ul de test, cu cutiile si distanta incarcate de KittiPedestrianDataset.
+Se genereaza cu `python scripts/make_demo.py --video vids/ped_test_video.mp4 --kitti-root data/kitti`.
+
 ### Rulare
 ```
 pip install torch --index-url https://download.pytorch.org/whl/cu128

@@ -7,4 +7,5 @@ data/kitti/
 vids/
 outputs/
 *.mp4
+!docs/demo/*.mp4
 *.pt
